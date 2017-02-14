@@ -3,11 +3,11 @@ This is an HTML5-based app created with a simple plugin, fullpage.js, and its as
 
 Before you set off creating all the pages and their child components, you need to initiate an instance object with H5 function sealed with such methods, such as:
 
-var h5 = new H5();
+<pre>var h5 = new H5();</pre>
 
 Then embark on creating however many pages with customized and animated components with: 
 
-h5.addPage().addComponent();
+<pre>h5.addPage().addComponent();</pre>
 
 The addPage() function takes 0~1 parameter that defines the page's topic/theme, such as 'cover-page', 'contact-page', etc., which in turn lead to adding 'h5_page_cover-page' and 'h5_page_contact-page' class names to the named page's div tag, while the addComponent() function takes two parameters, first one similar to that the addPage() function takes that defines the component's usage, and the second one an object in the following format: 
 
